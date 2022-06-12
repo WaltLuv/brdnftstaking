@@ -1150,10 +1150,10 @@ contract Collection is ERC721Enumerable, Ownable {
     uint256 public maxMintAmount = 5;
     bool public paused = false;
 
-    constructor() ERC721("Net2Dev NFT Collection", "N2D") {}
+    constructor() ERC721("BRD NFT Collection", "BRD") {}
         // internal
         function _baseURI() internal view virtual override returns (string memory) {
-        return "ipfs://EE5MmqVp5MmqVp7ZRMBBizicVh9ficVh9fjUofWicVh9f/";
+        return "ipfs://QmZQ5B5b3QrjrvnKGdXzsZQ7hDpyWXuC3T2YvqAfpKi6Jo/";
     }
         // public
 
