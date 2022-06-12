@@ -3,7 +3,7 @@
 pragma solidity 0.8.4;
 
 import "https://github.com/WaltLuv/brdnftstaking/blob/main/BRDRewards.sol";
-import "https://github.com/net2devcrypto/n2dstaking/Collection.sol";
+import "https://github.com/WaltLuv/brdnftstaking/blob/main/BRDCollection.sol";
 
 contract NFTStaking is Ownable, IERC721Receiver {
 
